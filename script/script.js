@@ -125,7 +125,7 @@ n.addEventListener("touchmove", function(t) {
  //       if (!(parseInt(i, 2) & parseInt(r, 2)))
  //                        //e(t)
 　　　　　
-          if($(t.touches[0]).position().top!=0){
+          if(t.touches[0].scrollTop!=0){
           　t.stopPropagation();
 　　　　　　t.preventDefault();
 }
