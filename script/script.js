@@ -122,7 +122,7 @@ n.addEventListener("touchmove", function(t) {
  if ("11" !== i) {
        //01是向上滑动或者滑不动，10是向下滑动。
        var r = t.touches[0].clientY - f > 0 ? "10" : "01";
-       // if (!(parseInt(i, 2) & parseInt(r, 2)))
+       if (!(parseInt(i, 2) & parseInt(r, 2)))
                         //e(t)
 　　　　　　t.stopPropagation();
 　　　　　　t.preventDefault();
