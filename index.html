@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="script/zepto-v1.2.0.js"></script>
+	<script src="script/touch.js"></script>
+	<script src="script/script.js"></script>
+	<script type="text/javascript">
+	    var docEl = document.documentElement,
+	    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	    recalc = function() {
+	        docEl.style.fontSize =20 * (docEl.clientWidth / 320) + 'px';
+	    };
+
+		window.addEventListener(resizeEvt, recalc, false);
+		document.addEventListener('DOMContentLoaded', recalc, false);
+    </script>
+</head>
+<body>
+<div id="viewport">	
+
+
+        <div class="arrow">
+        <div class="arrow1"></div>
+        <div class="arrow2"></div>
+        </div>
+
+		<div id="page1" class="pages">
+			<img id="logo" src="images/logo.png">
+			<h3>要出发周边游</h3>
+			<p>诚聘才子，期待加入</p>
+
+		</div>
+
+		<div id="page2" class="pages">
+	        <h1>公司简介</h1>
+	        <p> 要出发周边游，原称“要出发旅行网”，隶属于广州酷旅旅行社有限公司。该公司创立于2011年8月，专注周边旅游服务，致力打造涵盖“发现”、“选择”、“订购”各环节的一体化在线旅游平台。要出发提供的产品以城市“周边游”套餐服务为主，包含城市周边酒店、景区、美食三大板块，在线精品超过70,000个，已为数百万家庭提供7天×24小时保姆式服务。</p>
+		</div>
+        
+		<div id="page3" class="pages">
+	        <h1 class="tt1">公司宗旨</h1>
+			<p class="p1">提高国人周末生活品质，专注周末出游，打造周边游一站式服务平台，为城市人提供“更简单、更专业、超预期”的周边游。</p>
+			<h1 class="tt2">公司成就</h1>
+			<p class="p2">成立五年，要出发周边游已经在全国26个省市设置了分公司，共有将近2000名员工，通过人工筛选的方式精选酒店、景点、餐饮等旅游必需产品并组合成独特、好玩的套餐，为超过千万用户提供了服务。</p>
+		</div>
+		<div id="page4" class="pages">
+		<h1 class="page4_tt1">高星级酒店签约BD(周末双休)</h1>
+        <p class="page4_p1">职位描述：<br>
+			1、负责北京地区高品质酒店的谈判与合作协议签定<br>
+			2、根据市场和客户需求对产品进行整合设计，制定策略；<br>
+			3、熟练操作旅游线路报价和散客安排，处理客户问题；<br>
+			4、与其他部门沟通，确保各个协作部门对产品充分的理解；<br>
+			5、统计分析数据，提升整体产品的用户满意度。<br>
+			<br>
+			任职资格：<br>
+			1、大专以上学历，一年以上旅游行业工作经验；<br>
+			2、熟悉区域酒店市场，掌握区域酒店市场分析和产品营销的工具与策略；<br>
+			3、较强沟通能力，优秀的谈判技巧、服务意识和责任心强，能吃苦耐劳；<br>
+			4、有酒店供货渠道经验、OTA或团购行业背景优先；<br>
+			5、有自驾经验、有车者优先（有车补）。</p>
+			<div class="tel"><a href="tel:18522856492">拨打电话：18522856492</a></div>
+		</div>
+		<div id="page5" class="pages">
+         <h1 class="page5_tt1">联系我们</h1>
+         <p class="page5_p1">公司名称：广州酷旅要出发北京分公司<br>
+            公司地址：北京 - 海淀区 - 上地 - 信息路甲28号科实大厦<br>
+            联系电话：18522856492</p>
+		</div>		
+</div>
+</body>
+</html>
