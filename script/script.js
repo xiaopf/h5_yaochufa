@@ -55,6 +55,7 @@ $pages.swipeDown(function(){
 })
 
 
+<<<<<<< HEAD
 var n=$('body'),get(0);
 var f;
 n.addEventListener("touchstart", function(e) {         //n为h5页面的body
@@ -78,6 +79,13 @@ n.addEventListener("touchmove", function(t) {
 
       }
   },!1);
+=======
+$('body').swipeDown(function(){
+	return false;
+});
+
+
+>>>>>>> origin/gh-pages
 
 
 
