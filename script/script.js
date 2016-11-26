@@ -56,7 +56,7 @@ $pages.swipeDown(function(){
 
 
 
-var n=$('body'),get(0);
+var n=$('body').get(0);
 var f;
 n.addEventListener("touchstart", function(e) {         //n为h5页面的body
                 f = e.touches[0].clientY
