@@ -54,7 +54,7 @@ $pages.swipeDown(function(){
 
 })
 
-
+return false;
 
 
 })
