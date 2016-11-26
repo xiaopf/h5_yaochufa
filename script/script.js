@@ -109,7 +109,8 @@ var n=$('body').get(0);
 
 var f;
 n.addEventListener("touchstart", function(e) {         //n为h5页面的body
-                f = e.touches[0].clientY
+                f = e.touches[0].clientY;
+
 },!1),
 n.addEventListener("touchmove", function(t) {
  //  var i = "11"
@@ -124,8 +125,8 @@ n.addEventListener("touchmove", function(t) {
  //       var r = t.touches[0].clientY - f > 0 ? "10" : "01";
  //       if (!(parseInt(i, 2) & parseInt(r, 2)))
  //                        //e(t)
-　　　　　
-          if(t.touches[0].scrollTop!=0){
+
+          if(n.scrollTop!=0){
           　t.stopPropagation();
 　　　　　　t.preventDefault();
 }
