@@ -55,7 +55,7 @@ $pages.swipeDown(function(){
 })
 
 
-$(body).get(0).addEventListenner('touchmove',function(ev){
+$('body').get(0).addEventListenner('touchmove',function(ev){
 	ev.preventDefault();
 });
 
