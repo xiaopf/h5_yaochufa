@@ -55,29 +55,70 @@ $pages.swipeDown(function(){
 })
 
 
-var n=$('body').get(0);
-var f;
-n.addEventListener("touchstart", function(e) {         //n为h5页面的body
-                f = e.touches[0].clientY
-},!1),
-n.addEventListener("touchmove", function(t) {
-  var i = "11"
-  , n = this;
-  if (0 === n.scrollTop)                                  //滚动条最顶部的情况。
-       // 如果说没有滚动条的情况，i = "00"; 有滚动条的情况为“01”。
-       i = n.offsetHeight === n.scrollHeight ? "00" : "01";     
-  else if (n.scrollTop + n.offsetHeight >= n.scrollHeight)//有滚动条，滚动到最底部的情况。
-       i = "10";                 
- if ("11" !== i) {
+
+var $body=$('body').get(0);
+
+
+
+var ts;
+
+
+$body.addEventListener("touchstart", function(event) {       
+                ts = event.touches[0].clientY;
+},false);
+
+
+
+
+
+$body.addEventListener("touchmove", function(event) {
+
+
+
+  var i = "11";
+
+
+  if (this.scrollTop===0){
+
+       i = this.offsetHeight === this.scrollHeight ? "00" : "01"; // 如果说没有滚动条的情况，i = "00"; 有滚动条的情况为“01”。
+  }                                  
+
+
+           
+  else if (this.scrollTop + this.offsetHeight >= this.scrollHeight){  //有滚动条，滚动到最底部的情况。
+
+       i = "10";  
+  }
+
+
+ if (i !== "11") {
+
+
        //01是向上滑动或者滑不动，10是向下滑动。
-       var r = t.touches[0].clientY - f > 0 ? "10" : "01";
-       if (!(parseInt(i, 2) & parseInt(r, 2)))
-                        //e(t)
-　　　　　　t.stopPropagation();
-　　　　　　t.preventDefault();
+
+
+       var m = event.touches[0].clientY - ts > 0 ? "10" : "01";
+
+
+       if (!(parseInt(i, 2) & parseInt(m, 2))){
+
+　　      　event.stopPropagation();
+　　　　　　event.preventDefault();
+
+       }
+                       
+
+　　　
 
       }
-  },!1);
+
+
+
+
+
+  },false);
+
+
 
 
 
