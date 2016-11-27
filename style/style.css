@@ -155,15 +155,17 @@ body,div,p,ul,li,h3,h1,{
     }
 }
 @-webkit-keyFrames p_trail{
-	0%{
+	0%{ 
+		top: 58%;
 		transform: scale(0,0);
 		-webkit-transform: scale(0,0);
 		-moz-transform: scale(0,0);
     }
 	100%{
-		transform: scale(1.9,1.9);
-		-webkit-transform: scale(1.9,1.9);
-		-moz-transform: scale(1.9,1.9);
+		top: 58%;
+		transform: scale(10,10);
+		-webkit-transform: scale(10,10);
+		-moz-transform: scale(10,10);
     }
 }
 @-moz-keyFrames p_trail{
