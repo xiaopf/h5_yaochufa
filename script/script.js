@@ -1,13 +1,18 @@
 
 
 var images = new Array();
-
 for(var i=0;i<6;i++){
 	images[i]=new Image();
     images[i].src='images/'+i+'.png';  
 }
 
+images[5].onload=function(){
+	$('#zhezhao').hide();
+}
      
+
+
+
 
 $(document).ready(function(){
 
@@ -25,12 +30,6 @@ var width=$('#viewport').width();
 
 $pages.hide();
 $('#page1').show();
-
-
-
-
-
-
 
 
 var first_page=$pages.get(0);

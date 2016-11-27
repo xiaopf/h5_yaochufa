@@ -4,6 +4,17 @@ body,div,p,ul,li,h3,h1,{
     font-family: 'simsun';
 }
 
+#zhezhao{
+	z-index: 11;
+	position: absolute;
+	left: 0;
+	top:0;
+	width:100%;
+	height:100%;
+	background: #fff;
+}
+
+
 #viewport{
 	width: 100%;
 	height:100%;
