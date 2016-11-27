@@ -22,7 +22,7 @@ body,div,p,ul,li,h3,h1,{
 
 
 #page1{
-	background:url(../images/page1_bg.png) no-repeat;
+	background:url(../images/1.png) no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -173,7 +173,7 @@ body,div,p,ul,li,h3,h1,{
 
 
 #page2{
-	background:url(../images/page2_bg.png) no-repeat;
+	background:url(../images/2.png) no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -261,7 +261,7 @@ body,div,p,ul,li,h3,h1,{
 
 
 #page3{
-	background:url(../images/page3_bg.png) no-repeat;
+	background:url(../images/3.png) no-repeat;
 	background-size: 100% 100%
 }
 
@@ -363,7 +363,7 @@ body,div,p,ul,li,h3,h1,{
 }
 
 #page4{
-    background:url(../images/page4_bg.png) no-repeat;
+    background:url(../images/4.png) no-repeat;
 	background-size: 100% 100%
 }
 
@@ -494,7 +494,7 @@ body,div,p,ul,li,h3,h1,{
 }
 
 #page5{
-    background:url(../images/page5_bg.png) no-repeat;
+    background:url(../images/5.png) no-repeat;
 	background-size: 100% 100%
 }
 #page5 .page5_tt1{

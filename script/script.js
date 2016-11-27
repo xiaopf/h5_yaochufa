@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+
+
+document.ontouchmove=function(e){return false;}
+
+
+
 var $pages=$('#viewport .pages');
 var $viewport=$('#viewport');
 
@@ -8,6 +14,27 @@ var width=$('#viewport').width();
 
 $pages.hide();
 $('#page1').show();
+
+
+
+
+var preload=new Image();
+var n=6;
+preload.onload=function(){
+	for(var i=0;i<n;i++){
+       this.src='images/'+i+'.png';
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 var first_page=$pages.get(0);
@@ -57,12 +84,7 @@ $pages.swipeDown(function(){
 })
 
 
-document.ontouchmove=function(e){
-	return false;
-	 //var e=event;
-	 // e.stopPropagation();
-     //    e.preventDefault();
-}
+
 
 
 
