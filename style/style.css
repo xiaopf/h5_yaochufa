@@ -505,16 +505,16 @@ body,div,p,ul,li,h3,h1,{
 	width: 100%;
 	font-size: 19px;
 	text-align: center;
-    animation:  p5_t_trail 900ms 200ms linear  forwards;
-	-webkit-animation: p5_t_trail  900ms 200ms linear  forwards;
-	-moz-animation: p5_t_trail  900ms 200ms linear  forwards;
+    animation:  p5_t_trail 800ms 200ms linear  forwards;
+	-webkit-animation: p5_t_trail  800ms 200ms linear  forwards;
+	-moz-animation: p5_t_trail  800ms 200ms linear  forwards;
 }
 @keyFrames p5_t_trail{
 	0%{
 		top:-50%;
     }
 	100%{
-		top:20%;
+		top:15%;
     }
 }
 @-webkit-keyFrames p5_t_trail{
@@ -522,7 +522,7 @@ body,div,p,ul,li,h3,h1,{
 		top:-50%;
     }
 	100%{
-		top:20%;
+		top:15%;
     }
 }
 @-moz-keyFrames p5_t_trail{
@@ -530,7 +530,7 @@ body,div,p,ul,li,h3,h1,{
 		top:-50%;
     }
 	100%{
-		top:20%;
+		top:15%;
     }
 }
 
@@ -553,7 +553,7 @@ body,div,p,ul,li,h3,h1,{
 		top:100%;
     }
 	100%{
-		top:25%;
+		top:18%;
     }
 }
 @-webkit-keyFrames p5_p_trail{
@@ -561,7 +561,7 @@ body,div,p,ul,li,h3,h1,{
 		top:100%;
     }
 	100%{
-		top:25%;
+		top:18%;
     }
 }
 @-moz-keyFrames p5_p_trail{
@@ -569,7 +569,7 @@ body,div,p,ul,li,h3,h1,{
 		top:100%;
     }
 	100%{
-		top:25%;
+		top:18%;
     }
 }
 

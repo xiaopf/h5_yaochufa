@@ -1,3 +1,14 @@
+
+
+var images = new Array();
+
+for(var i=0;i<6;i++){
+	images[i]=new Image();
+    images[i].src='images/'+i+'.png';  
+}
+
+     
+
 $(document).ready(function(){
 
 
@@ -18,12 +29,6 @@ $('#page1').show();
 
 
 
-var preload=new Image();
-var n=6;
-
-for(var i=0;i<n;i++){
-    preload.src='images/'+i+'.png';
-}
 
 
 
