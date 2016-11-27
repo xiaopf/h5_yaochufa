@@ -59,9 +59,9 @@ $pages.swipeDown(function(){
 
 
 $('body').get(0).addEventListener('touchmove', function(e) {
-    if (!$pages.contains(e.target)) {
+    // if (!$pages.contains(e.target)) {
         e.preventDefault();
-    }
+    // }
 })
 
 
