@@ -58,11 +58,10 @@ $pages.swipeDown(function(){
 
 
 document.ontouchmove=function(e){
-	var e=event;
-	// e.stopPropagation();
- //    e.preventDefault();
-
- return false;
+	return false;
+	 //var e=event;
+	 // e.stopPropagation();
+     //    e.preventDefault();
 }
 
 
