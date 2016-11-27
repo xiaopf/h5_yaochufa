@@ -35,7 +35,7 @@ $pages.swipeUp(function(){
 
 
 $pages.swipeDown(function(){
-
+    return false;
 	$(this).addClass('down_fade_out');	
 	if ($(this).get(0)==first_page) {
     	$(last_page).addClass('down_top').show().addClass('down_fade_in');
