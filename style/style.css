@@ -156,7 +156,7 @@ body,div,p,ul,li,h3,h1,{
 		font-size: 0rem;
     }
 	100%{
-		top: 40%;
+		font-size: 1.3rem;
     }
 }
 @-moz-keyFrames p_trail{
