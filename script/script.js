@@ -58,16 +58,18 @@ $pages.swipeDown(function(){
 
 
 
-// $('body').get(0).addEventListener('touchmove', function(event) {
-//     if (!pages.contains(event.target)) {
-//         event.preventDefault();
-//     }
-// })
-document.querySelector('body').addEventListener('touchmove', function(e) {
-    if (!document.querySelector('.bottom').contains(e.target)) {
+$('body').get(0).addEventListener('touchmove', function(e) {
+    if (!$pages.contains(e.target)) {
         e.preventDefault();
     }
 })
+
+
+// document.querySelector('body').addEventListener('touchmove', function(e) {
+//     if (!document.querySelector('.bottom').contains(e.target)) {
+//         e.preventDefault();
+//     }
+// })
 
 
 
