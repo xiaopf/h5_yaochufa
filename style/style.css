@@ -134,7 +134,7 @@ body,div,p,ul,li,h3,h1,{
 	position: absolute;
 	width: 100%;
 	top: 53%;
-	font-size: 0;
+	font-size: 0rem;
 	font-weight: bold;
 	text-align: center;
 
@@ -142,9 +142,10 @@ body,div,p,ul,li,h3,h1,{
 	-webkit-animation: p_trail  500ms 100ms linear  forwards;
 	-moz-animation: p_trail  500ms 100ms linear  forwards;	
 }
+
 @keyFrames p_trail{
 	0%{
-		font-size: 0;
+		font-size: 0rem;
     }
 	100%{
 		font-size: 1.3rem;
@@ -152,20 +153,22 @@ body,div,p,ul,li,h3,h1,{
 }
 @-webkit-keyFrames p_trail{
 	0%{
-		font-size: 0;
+		font-size: 0rem;
     }
 	100%{
-		font-size: 1.3rem;
+		top: 40%;
     }
 }
 @-moz-keyFrames p_trail{
 	0%{
-		font-size: 0;
+		font-size: 0rem;
     }
 	100%{
 		font-size: 1.3rem;
     }
 }
+
+
 
 
 
