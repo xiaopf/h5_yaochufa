@@ -125,10 +125,10 @@ n.addEventListener("touchmove", function(t) {
  //       var r = t.touches[0].clientY - f > 0 ? "10" : "01";
  //       if (!(parseInt(i, 2) & parseInt(r, 2)))
  //                        //e(t)
-   alert(n.scrollTop)
-          if(n.scrollTop!=0){
-          　t.stopPropagation();
-　　　　　　t.preventDefault();
+   // alert(n.scrollTop)
+//           if(n.scrollTop!=0){
+//           　t.stopPropagation();
+// 　　　　　　t.preventDefault();
 }
       // }
   },!1);
