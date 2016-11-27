@@ -134,37 +134,37 @@ body,div,p,ul,li,h3,h1,{
 	position: absolute;
 	width: 100%;
 	top: 53%;
-	font-size: 0rem;
+	font-size: 0px;
 	font-weight: bold;
 	text-align: center;
 
-	animation:  p_trail 500ms 100ms linear  forwards;
-	-webkit-animation: p_trail  500ms 100ms linear  forwards;
-	-moz-animation: p_trail  500ms 100ms linear  forwards;	
+	animation:  page1_p_trail 500ms 100ms linear  forwards;
+	-webkit-animation: page1_p_trail  500ms 100ms linear  forwards;
+	-moz-animation: page1_p_trail  500ms 100ms linear  forwards;	
 }
 
-@keyFrames p_trail{
+@keyFrames page1_p_trail{
 	0%{
-		font-size: 0rem;
+		font-size: 0px;
     }
 	100%{
-		font-size: 1.3rem;
+		font-size: 29px;
     }
 }
-@-webkit-keyFrames p_trail{
+@-webkit-keyFrames page1_p_trail{
 	0%{
-		font-size: 0rem;
+		font-size: 0px;
     }
 	100%{
-		font-size: 1.3rem;
+		font-size: 29px;
     }
 }
-@-moz-keyFrames p_trail{
+@-moz-keyFrames page1_p_trail{
 	0%{
-		font-size: 0rem;
+		font-size: 0px;
     }
 	100%{
-		font-size: 1.3rem;
+		font-size: 29px;
     }
 }
 
