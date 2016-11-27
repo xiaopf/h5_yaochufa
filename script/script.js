@@ -35,6 +35,7 @@ $pages.swipeUp(function(){
 
 
 $pages.swipeDown(function(){
+
 	$(this).addClass('down_fade_out');	
 	if ($(this).get(0)==first_page) {
     	$(last_page).addClass('down_top').show().addClass('down_fade_in');
@@ -58,20 +59,13 @@ $pages.swipeDown(function(){
 
 
 
-$('body').get(0).addEventListener('touchmove', function(e) {
-    // if (!$pages.contains(e.target)) {
-        e.preventDefault();
-    // }
-},false);
+$('body').swipeDown(function(){
+   return false;
+})
 
-
-// document.querySelector('body').addEventListener('touchmove', function(e) {
-//     if (!document.querySelector('.bottom').contains(e.target)) {
-//         e.preventDefault();
-//     }
-// })
-
-
+$('body').swipeup(function(){
+   return false;
+})
 
 
 
