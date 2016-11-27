@@ -58,6 +58,31 @@ $pages.swipeDown(function(){
 
 
 
+$('body').get(0).addEventListener('touchmove', function(event) {
+    if (!pages.contains(event.target)) {
+        event.preventDefault();
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // var $body=$('body').get(0);
 // var ts;
 // $body.addEventListener("touchstart", function(event) {       
@@ -94,6 +119,10 @@ $pages.swipeDown(function(){
 // 　　　
 
 //  }
+
+
+
+
 
 
 
