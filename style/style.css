@@ -155,7 +155,7 @@ body,div,p,ul,li,h3,h1,{
 		font-size: 0.1rem;
     }
 	100%{
-		font-size: 1.3rem;
+		font-size: 1.8rem;
     }
 }
 @-moz-keyFrames p_trail{
@@ -669,6 +669,40 @@ body,div,p,ul,li,h3,h1,{
 
 }
 @keyFrames arrow{
+	0%{
+		opacity: 1;
+		top:110%;
+
+	}	
+	25%{
+		opacity: 0.8;
+		top:96%;
+
+	}
+	100%{
+        opacity: 0;
+		top:94%;
+
+	}
+}
+@-webkit-keyFrames arrow{
+	0%{
+		opacity: 1;
+		top:110%;
+
+	}	
+	25%{
+		opacity: 0.8;
+		top:96%;
+
+	}
+	100%{
+        opacity: 0;
+		top:94%;
+
+	}
+}
+@-moz-keyFrames arrow{
 	0%{
 		opacity: 1;
 		top:110%;
