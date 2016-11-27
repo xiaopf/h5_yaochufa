@@ -653,8 +653,8 @@ body,div,p,ul,li,h3,h1,{
     -moz-animation: 2.5s 500ms arrow infinite linear;
 }
 .arrow1{
-	width: 0.8rem;
-	height:0.8rem;
+	width: 25px;
+	height:25px;
 	border-top:2px solid #b69d38;
 	border-right:2px solid #b69d38;
 	position: absolute;
@@ -663,13 +663,13 @@ body,div,p,ul,li,h3,h1,{
 	
 }
 .arrow2{
-	width: 0.8rem;
-	height:0.8rem;
+	width: 25px;
+	height:25px;
 	border-top:2px solid #b69d38;
 	border-right:2px solid #b69d38;
 	position: absolute;
-	top:0.2rem;
-	left:-0.2rem;
+	top:5px;
+	left:-5px;
 
 }
 @keyFrames arrow{

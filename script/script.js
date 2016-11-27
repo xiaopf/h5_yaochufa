@@ -20,19 +20,10 @@ $('#page1').show();
 
 var preload=new Image();
 var n=6;
-preload.onload=function(){
-	for(var i=0;i<n;i++){
-       this.src='images/'+i+'.png';
-	}
+
+for(var i=0;i<n;i++){
+    preload.src='images/'+i+'.png';
 }
-
-
-
-
-
-
-
-
 
 
 
