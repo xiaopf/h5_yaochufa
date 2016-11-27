@@ -62,7 +62,7 @@ $('body').get(0).addEventListener('touchmove', function(e) {
     // if (!$pages.contains(e.target)) {
         e.preventDefault();
     // }
-})
+},false);
 
 
 // document.querySelector('body').addEventListener('touchmove', function(e) {
